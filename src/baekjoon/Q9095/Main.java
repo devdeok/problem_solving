@@ -7,7 +7,6 @@ public class Main {
         // 엔터로 구분해서 입력 받음
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-
         int T = Integer.parseInt(br.readLine()); // 테스트 케이스 개수
         int[] dp = new int[12]; // dp를 사용할 배열
 
